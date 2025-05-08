@@ -11175,6 +11175,56 @@ footer a:hover, footer a:active, footer a:focus {
   transform: scale(1.2);
   color: #333;
 }
+/* Styling for Contact Form */
+.page-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  margin-top: 30px;
+}
+
+form .form-floating {
+  margin-bottom: 20px;
+}
+
+form .form-control {
+  border-radius: 6px;
+  padding: 12px;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #e75480;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #d9446c;
+}
+
+/* Center the "Send" button */
+.text-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form .btn {
+  padding: 12px 20px;
+  background-color: #e75480;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form .btn:hover {
+  background-color: #d9446c;
+}
+
 @media (min-width: 576px) {
   .masthead .masthead-device-mockup .circle {
     width: 70%;
